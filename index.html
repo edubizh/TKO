@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>TKO</title>
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+      <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+        <span class="material-icons">menu</span>
+      </button>
+
+      <h1 class="navbar-title">TKO</h1>
+
+      <nav class="navbar-menu">
+        <button type="button" class="active">Home</button>
+        <button type="button" class="active">FAQ</button>
+        <button type="button" class="active">X-X-X</button>
+        <button type="button" class="active">Contact Us</button>
+      </nav>
+    </nav>
+
+    <script type="text/javascript">
+      const toggleMenuOpen = () => document.body.classList.toggle("open");
+    </script>
+  </body>
+</html>
